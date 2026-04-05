@@ -27,7 +27,7 @@
     --text-stroke-color: #fff;
 }
 
-@media (width <= 375px) { 
+@media (width <= 375px) {
     .save-button {
         flex-direction: column;
         max-inline-size: 306px;
