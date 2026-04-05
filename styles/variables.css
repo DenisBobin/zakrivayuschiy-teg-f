@@ -1,1 +1,59 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+   --font-family-main:  Inter;
+   --font-family-accent: PressStart2P;
+   --font-weight-card: 410;
+   --font-weight-title: 715;
+
+   --color-accent: #000;
+
+    /*heart*/
+    --contour-color: #000;
+    --animation-fill-color: #ff0000;
+
+   --border-block: 2px solid #000;
+
+   --bg-image:
+    repeating-linear-gradient(0deg, #d3d3d3 0px, #d3d3d3 2px, transparent 2px, transparent 4px),
+    repeating-linear-gradient(90deg, #d3d3d3 0px, #d3d3d3 2px, transparent 2px, transparent 4px),
+    linear-gradient(#e7e7e7 0.01%, #1a1a1a 100%);
+
+    --inline-size-block: clamp(320px, 100%, 700px);
+
+    /*buttons*/
+    --button-font-size: 14px;
+
+    /*label*/
+    --text-stroke-color: #fff;
+}
+
+@media (width <= 375px) { 
+    .save-button {
+        flex-direction: column;
+        max-inline-size: 306px;
+        text-wrap: nowrap;
+    }
+
+    .save-button__icon {
+  width:  28px;
+  height: 28px;
+}
+
+ .card__text {
+  line-height: 1.167;
+}
+
+.content {
+    gap: 48px;
+}
+
+.card__content {
+  gap: 24px;
+  padding: 25px 25px 0;
+}
+
+.card__buttons {
+  padding: 24px 25px 24px;
+}
+
+}
