@@ -10,6 +10,7 @@
 
 */
 /*----------------------------------------------------------- General property page*/
+
 .page {
   margin: 0 auto;
   font-family: var(--font-family-main, sans-serif);
@@ -213,7 +214,7 @@
   overflow: hidden;
 }
 
-.button::before {  
+.button::before {
   content: "";
   position: absolute;
   top: 0;
